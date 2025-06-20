@@ -1,0 +1,15 @@
+h1{
+    color: rgb(6, 3, 0);
+    position: center;
+    font-style: oblique;
+}
+p{
+    color: rgb(145, 50, 50);
+    position: center;
+    font-style: italic;
+}
+h2{
+    color: rgb(153, 63, 232);
+    position: center;
+    font-style: inherit;
+}

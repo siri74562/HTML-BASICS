@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <centre>
+    <form>
+        
+          <fieldset>
+            <legend><h1>Personal Information</h1></legend>
+            <label for="name">Enter your Full name:</label>
+            <input type="text" id="name"  placeholder="Enter Full name" />
+            <br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" placeholder="Enter  your email" />
+            <br>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" placeholder="Enter your password" />
+            <br>
+            <label for="confirmpassword">Confirm your password:</label>
+            <input type="confirmpassword" id="confirmpassword" placeholder="Confirm your password"/>
+            <br>
+            <label for="Mobilenumber">Enter your Mobilenumber:</label>
+            <input type="tel" id="Mobilenumber" pattern="[0-9]{10}" placeholder="Enter your phone number" />
+            <br>
+            <label >Enter your gender:</label>
+            <div class="gender-group">
+            <input type="radio" name="gender" value="male" id="male" required />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female" required />
+            <label for="female">female</label>
+            <input type="radio" name="gender" value="others" id="others" required />
+            <label for="others">others</label>
+            <br>
+              </div>
+              <label for="dob">Enter your date of Birth:</label>
+              <input type="date" id="dob" required />
+              <br>
+              <label for="country">Select your Country</label>
+              <select id = "country" required>
+                <option value="" >Select your Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Europe">Europe</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+              </select>
+              <br>
+               <label for="address">Enter your Address:</label>
+              <input type="address" id="text" placeholder="Enter your address" />
+              <br>
+              <input type="Submit" value="Submit" />
+             </fieldset>
+            
+    </form>
+  </centre>
+</body>
+</html>
