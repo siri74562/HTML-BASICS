@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "abc" style = "width: 100px; height: 100px; background-color: aliceblue;"></div><br><br>
+    <button id ="clickMe">Click Me!</button>
+   
+    <script>
+       let a = document.getElementById("abc");
+       a.addEventListener("mouseenter",function(){
+            a.style.backgroundColor = "purple";
+        });
+        a.addEventListener("mouseleave",function(){
+            a.style.backgroundColor = "lightgreen";
+        });
+        document.getElementById("clickMe").addEventListener("click",function(){
+        alert("Button is Clicked!");
+       });
+       
+    </script>
+</body>
+</html>
