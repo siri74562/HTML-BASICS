@@ -1,0 +1,32 @@
+#studentForm {
+    width: 500px;
+    margin: 30px auto;
+    padding: 50px;
+    border: 2px solid #aeadad;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#studentForm input, #studentForm select, #studentForm button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#studentForm input::placeholder {
+    font-style: italic;
+}
+#studentForm button {
+    background-color: #30575e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#studentForm select option:first-child {
+    font-style: italic;
+}
+#studentForm button:hover {
+    background-color: #3f5e68;
+}
