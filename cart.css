@@ -1,0 +1,143 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      border-bottom: 1px solid #ccc;
+    }
+    .logo {
+      font-size: 40px;
+      font-weight: bold;
+      color: #2b3c4b;
+    }
+    .header-links {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+    }
+    .header-links a {
+      text-decoration: none;
+      color: #2b3c4b;
+    }
+    .ajio-luxe {
+      background-color: black;
+      color: white;
+      padding: 5px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      border-radius: 2px;
+    }
+    .checkout-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  gap: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.checkout-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #777;
+  font-size: 16px;
+  position: relative;
+}
+
+.checkout-step .circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.checkout-step .circle img {
+  width: 18px;
+  height: 18px;
+  filter: invert(100%);
+}
+
+.checkout-step.active {
+  color: #2b3c4b;
+  font-weight: bold;
+}
+
+.checkout-step.active .circle {
+  background-color: #2b3c4b;
+}
+
+.checkout-line {
+  flex: 1;
+  height: 2px;
+  background-color: #eee;
+  margin: 0 15px;
+}
+    .bag-empty {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .bag-empty h2 {
+      margin-bottom: 10px;
+      color: #555;
+    }
+    .bag-empty p {
+      color: #777;
+      margin-bottom: 20px;
+    }
+    .bag-empty button {
+      padding: 12px 30px;
+      background-color: #876328;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .benefits {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      margin: 40px 0;
+    }
+    .benefits div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 14px;
+      color: #876328;
+    }
+    .info-section {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 0;
+      background-color: #f8f8f8;
+    }
+    .info-section div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-weight: bold;
+      color: #2b3c4b;
+    }
+    .info-section img {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 8px;
+    }
+
+
+    
